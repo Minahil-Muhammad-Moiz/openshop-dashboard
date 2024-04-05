@@ -1,9 +1,11 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 const Products = () => {
-  return (
-    <div>Products</div>
-  )
+    return (
+        <>
+            <Link to="/" className='underline'>Go to DashBoard</Link>
+        </>
+    )
 }
 
 export default Products
