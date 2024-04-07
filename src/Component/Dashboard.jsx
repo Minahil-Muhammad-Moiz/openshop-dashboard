@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import DashboardStatsGrid from './DashboardStatsGrid';
 
 const Dashboard = () => {
   return (
-    <>
-      <h1>This is Dashboard</h1>
-      <Link to='/products' className='underline'>Go to Product Section</Link>
-    </>
+    <div className='flex gap-4'>
+      <DashboardStatsGrid/>
+    </div>
   )
 }
 
