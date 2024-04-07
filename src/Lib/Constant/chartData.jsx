@@ -1,4 +1,4 @@
-const chartData = [
+export const chartData = [
 	{
 		name: 'Jan',
 		Expense: 4000,
@@ -66,5 +66,3 @@ export const buyerData  = [
 	{ name: 'Female', value: 620 },
 	{ name: 'Other', value: 210 }
 ]
-
-export default chartData

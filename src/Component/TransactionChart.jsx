@@ -1,4 +1,4 @@
-import chartData from '../Lib/Constant/chartData'
+import {chartData} from '../Lib/Constant/chartData'
 import React from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
