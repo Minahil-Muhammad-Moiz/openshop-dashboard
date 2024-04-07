@@ -61,4 +61,10 @@ const chartData = [
 	}
 ]
 
+export const buyerData  = [
+	{ name: 'Male', value: 540 },
+	{ name: 'Female', value: 620 },
+	{ name: 'Other', value: 210 }
+]
+
 export default chartData
