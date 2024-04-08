@@ -7,9 +7,9 @@ import PopularProducts from './PopularProducts'
 
 const Dashboard = () => {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 mt-16 w-full ">
             <DashboardStatsGrid />
-            <div className="flex flex-row gap-4 w-full">
+            <div className="flex flex-row gap-4 w-full -z-10">
                 <TransactionChart />
                 <BuyerProfileChart />
             </div>

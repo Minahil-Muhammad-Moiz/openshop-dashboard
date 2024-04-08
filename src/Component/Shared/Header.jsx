@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 const Header = () => {
     const navigate = useNavigate()
     return (
-        <div className="px-4 bg-white h-14 flex justify-between items-center border-b border-gray-300 fixed w-[85%]">
+        <div className="px-4 bg-white h-14 flex justify-between items-center border-b border-gray-300 fixed w-[85%] ">
             <div className="relative">
                 <HiOutlineSearch fontSize={20} className="text-gray-400 absolute top-1/2 -translate-y-1/2 left-2" />
                 <input
